@@ -1,4 +1,4 @@
-# E4040-2019fFALL-PROJECT-RNDM-ms5898-yd2505-fw2322
+# E4040-2019FALL-PROJECT-RNDM-ms5898-yd2505-fw2322
 This course project is a version of [Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Network](http://arxiv.org/pdf/1312.6082.pdf) use Tensorflow
 
 ## Team Member:
@@ -47,6 +47,12 @@ git clone https://github.com/cu-zk-courses-org/e4040-2019fall-project-rndm-ms589
 ```
 2. Download the data set [SVHN Dataset](http://ufldl.stanford.edu/housenumbers/)
 
+**3. For the Bestmodel, it is too large to upload to github. You may get from google drive. (The folder modelbest
+does not have .data file because it is so large, so if you want to get the best model, use the link below)**
+```
+https://drive.google.com/drive/folders/14iL_xP-DDdRs402JSNt1LTcjioqWkG3H?usp=sharing
+```
+
 ## Usage:
 1. Run Data_Preprocess.ipynb
 ```
@@ -68,7 +74,7 @@ network, for some other layers network the method is the same.
 ```
 ## Result:
 1. Neural network structure
-![Graph](https://raw.githubusercontent.com/cu-zk-courses-org/e4040-2019fall-project-rndm-ms5898-yd2505-fw2322/master/img/network_structure.png?token=ANIW3EV22DKFS26S4TGLPYS57Q46E)
+![Graph](img/network_structure.png)
 ```
 As shown above, we built the 11-layer network consisting of eight convolution hidden layers
 and two fully connected hidden layers (plus one output layer) with the size parameters described 
@@ -78,15 +84,13 @@ kernel size is 2*2 for all and takes stride as 2 every 2 pool layers (like 2, 1,
 In our implementation, the best result we got is 84% test accuracy under this model.
 ```
 2. Tensorboard result:
-![Graph](https://raw.githubusercontent.com/cu-zk-courses-org/e4040-2019fall-project-rndm-ms5898-yd2505-fw2322/master/img/tensorboard.png?token=ANIW3EXXBISWEOPF4KAITM257Q5UO)
+![Graph](img/tensorboard.png)
 
 3. Best accuracy on Test set:
 
-![Graph](https://raw.githubusercontent.com/cu-zk-courses-org/e4040-2019fall-project-rndm-ms5898-yd2505-fw2322/master/img/acc.png?token=ANIW3ESUWFAMIPSSPPEFKOS57Q7FM)
+![Graph](img/acc.png)
 
 ## Reference:
 [1] Goodfellow, I.J., Bulatov, Y., Ibarz, J., Arnoud, S. and Shet, V., 2013. Multi-digit number recognition from street view imagery using deep convolutional neural networks. arXiv preprint arXiv:1312.6082.
-
-
 
 
